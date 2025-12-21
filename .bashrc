@@ -156,14 +156,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - bash)"
 
-# The Fuck config
-# eval $(thefuck --alias fuck)
-
 # Atuin config
-# source ~/.local/share/blesh/ble.sh
-# . "$HOME/.atuin/bin/env"
+source ~/.local/share/blesh/ble.sh
+. "$HOME/.atuin/bin/env"
 
 # [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
-# eval "$(atuin init bash)"
-
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(atuin init bash)"
