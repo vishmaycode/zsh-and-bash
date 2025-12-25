@@ -13,3 +13,9 @@ My custom .bashrc file inspired by parrot os
  - bash ble-nightly/ble.sh --install ~/.local/share
  - echo 'source ~/.local/share/blesh/ble.sh' >> ~/.bashrc
 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+sudo pacman -S python python-pip
+sudo apt install python3 python3-pip
+
+curl -fsSL https://pyenv.run | bash
